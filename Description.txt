@@ -1,0 +1,15 @@
+We created a base class Person in JavaScript with common properties: name and age.
+
+The Person class also has a method displayInfo() to show the basic details.
+
+We then created two subclasses using inheritance:
+
+Student → extends Person and adds a new property course.
+
+Teacher → extends Person and adds a new property subject.
+
+Both Student and Teacher classes override the displayInfo() method to include their own extra details along with the base class information.
+
+In the React component, we created instances of Student and Teacher.
+
+Finally, we displayed their details on the web page, showing how inheritance and method overriding work in ES6 classes.
